@@ -21,7 +21,7 @@ namespace HW.UnityPlayerWindowHandle.Editor
     /// <summary>
     /// プロジェクト設定にUnityPlayerWindowHandleのDefine Symbolを追加するクラス
     /// </summary>
-    public static class PackageSymbol
+    internal static class PackageSymbol
     {
         /// <summary>
         /// 自身のパッケージが存在する時に定義されるシンボル
