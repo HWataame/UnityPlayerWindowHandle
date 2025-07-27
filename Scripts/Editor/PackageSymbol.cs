@@ -38,7 +38,7 @@ namespace HW.UnityPlayerWindowHandle.Editor
 
 
         /// <summary>
-        /// Define Symbolを追加する
+        /// Define Symbolを処理する
         /// </summary>
         [InitializeOnLoadMethod]
         private static void ProcessSymbol()
