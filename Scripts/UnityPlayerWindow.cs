@@ -18,7 +18,8 @@ using UnityEngine;
 namespace HW.UnityPlayerWindowHandle
 {
     /// <summary>
-    /// Unityのスタンドアロンプレイヤーのウィンドウハンドルを保持するクラス
+    /// JP: Unityのスタンドアロンプレイヤーのウィンドウハンドルを保持するクラス<br />
+    /// EN: Unity Standalone Player main window handle getter class
     /// </summary>
     public static class UnityPlayerWindow
     {
@@ -53,9 +54,13 @@ namespace HW.UnityPlayerWindowHandle
         private static bool isHandleValid = false;
 
         /// <summary>
-        /// スタンドアロンプレイヤーのメインウィンドウのウィンドウハンドル
+        /// JP: スタンドアロンプレイヤーのメインウィンドウのウィンドウハンドル<br />
+        /// EN: Standalone Player main window handle
         /// </summary>
-        /// <remarks>Windowsのスタンドアロンプレイヤー以外では常に0になる</remarks>
+        /// <remarks>
+        /// JP: Windowsのスタンドアロンプレイヤー以外では常に0になる<br />
+        /// EN: Always returns 0 except for running on Windows Standalone Player
+        /// </remarks>
         public static nint MainWindowHandle
         {
             [MethodImpl(MethodImplOptions.AggressiveInlining)]
@@ -70,7 +75,8 @@ namespace HW.UnityPlayerWindowHandle
         }
 
         /// <summary>
-        /// ウィンドウハンドルの値が有効か
+        /// JP: ウィンドウハンドルの値が有効か<br />
+        /// EN: Is MainWindowHandle value valid?
         /// </summary>
         public static bool IsHandleValid
         {
