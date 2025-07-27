@@ -55,6 +55,12 @@ if(HW.UnityPlayerWindowHandle.UnityPlayerWindow.IsHandleValid)
   When install this package, a Define Symbol `HAS_COMMON_MAIN_WINDOW_HANDLE_GETTER_HW` will be added to installed project automatically.
   And, When uninstall this package, `HAS_COMMON_MAIN_WINDOW_HANDLE_GETTER_HW` will be removed from the project automatically
 
+- 1.0.1以上では、`SubsystemRegistration`のタイミング（メインウィンドウが表示される前）に自動的にウィンドウハンドルを取得する処理が実行されます。
+  プロジェクトのDefine Symbolに`SUPPRESS_AUTO_GET_WINDOW_HANDLE_HW`を指定すると、自動取得を無効にできます
+
+  On 1.0.1 or greater, will be getting Standalone Player main window handle when `SubsystemRegistration` timing.
+  If set `SUPPRESS_AUTO_GET_WINDOW_HANDLE_HW` to Define Symbol in Project Setting, auto getting will be disabled
+
 ## 導入方法 / English "How to introduction" is below this
 1. Gitをインストールする
 2. 追加したいプロジェクトを開き、Package Managerを開く
