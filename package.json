@@ -1,0 +1,10 @@
+{
+  "name": "com.hw.unityplayer_window_handle",
+  "version": "1.0.0",
+  "displayName": "UnityPlayer Window Handle",
+  "description": "Windows\u3067\u52d5\u4f5c\u3059\u308bUnity\u306e\u30b9\u30bf\u30f3\u30c9\u30a2\u30ed\u30f3\u30d7\u30ec\u30a4\u30e4\u30fc\u306e\u30e1\u30a4\u30f3\u30a6\u30a3\u30f3\u30c9\u30a6\u306e\u30a6\u30a3\u30f3\u30c9\u30a6\u30cf\u30f3\u30c9\u30eb\u3092\u53d6\u5f97\u3059\u308b\n\nGet the Unity Standalone Player main window handle running on Windows",
+  "unity": "2021.3",
+  "author": {
+    "name": "Wataame(HWataame)"
+  }
+}
