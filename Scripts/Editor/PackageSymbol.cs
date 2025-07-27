@@ -84,7 +84,7 @@ namespace HW.UnityPlayerWindowHandle.Editor
 
             // パッケージ情報ファイルの存在を確認する
             var packagePath = string.Concat("Packages/", PackageName, "/package.json");
-            if (File.Exists(Path.GetFullPath(packagePath).ToLower()) &&
+            if (File.Exists(Path.GetFullPath(packagePath)) &&
                 AssetDatabase.AssetPathToGUID(packagePath).ToLower() == PackageInfoGuid)
             {
                 // パッケージ情報ファイルが存在し、パッケージ情報のGUIDが想定されたものである場合は
